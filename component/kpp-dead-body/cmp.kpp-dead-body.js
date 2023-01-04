@@ -19,21 +19,32 @@ class ComponentKppDeadBody {
 
 	static img = [ 
 
-		{ id: 'danger_air' 		, title: 'Повітряна тривога' 	, alt: 'Повітряна тривога' 	, },
-		{ id: 'danger_missile' 	, title: 'Ракетна небезпека' 	, alt: 'Ракетна небезпека' 	, },
-		{ id: 'danger_cancel' 	, title: 'Відбій тривоги' 		, alt: 'Відбій тривоги' 	, },
+		{ id: 'danger_air' 			, title: 'Повітряна тривога' 	, alt: 'Повітряна тривога' 	, },
+		{ id: 'danger_missile' 		, title: 'Ракетна небезпека' 	, alt: 'Ракетна небезпека' 	, },
+		{ id: 'danger_cancel' 		, title: 'Відбій тривоги' 		, alt: 'Відбій тривоги' 	, },
 
-		{ id: 'baza1' 			, title: '1 на базі' 			, alt: '1 на базі' 			, },
-		{ id: 'baza2' 			, title: '2 на базі' 			, alt: '2 на базі' 			, },
-		{ id: 'baza3' 			, title: '3 на базі' 			, alt: '3 на базі' 			, },
+		{ id: 'baza1' 				, title: '1 на базі' 			, alt: '1 на базі' 			, },
+		{ id: 'baza2' 				, title: '2 на базі' 			, alt: '2 на базі' 			, },
+		{ id: 'baza3' 				, title: '3 на базі' 			, alt: '3 на базі' 			, },
 
-		{ id: 'go1' 			, title: '1 виїхала' 			, alt: '1 виїхала' 			, },
-		{ id: 'go2' 			, title: '2 виїхав' 			, alt: '2 виїхав' 			, },
-		{ id: 'go3' 			, title: '3 виїхав' 			, alt: '3 виїхав' 			, },
+		{ id: 'go1' 				, title: '1 виїхала' 			, alt: '1 виїхала' 			, },
+		{ id: 'go2' 				, title: '2 виїхав' 			, alt: '2 виїхав' 			, },
+		{ id: 'go3' 				, title: '3 виїхав' 			, alt: '3 виїхав' 			, },
 
-		{ id: 'bez_prigod_26' 	, title: 'КПП 26 без пригод' 	, alt: 'КПП 26 без пригод' 	, },
-		{ id: 'bez_prigod_28' 	, title: 'КПП 28 без пригод' 	, alt: 'КПП 28 без пригод' 	, },
-		{ id: 'bez_prigod_315' 	, title: 'КПП 315 без пригод' 	, alt: 'КПП 315 без пригод' , },
+		{ id: 'bez_prigod_26' 		, title: 'КПП 26 без пригод' 	, alt: 'КПП 26 без пригод' 	, },
+		{ id: 'bez_prigod_28' 		, title: 'КПП 28 без пригод' 	, alt: 'КПП 28 без пригод' 	, },
+		{ id: 'bez_prigod_315' 		, title: 'КПП 315 без пригод' 	, alt: 'КПП 315 без пригод' , },
+		{ id: 'kpp_norm' 			, title: 'КПП норм' 			, alt: 'КПП норм' 			, },
+
+		{ id: 'dron' 				, title: 'Дрон над базою' 		, alt: 'Дрон над базою' 	, },
+		
+		{ id: 'karcher_ne_pracyue' 	, title: 'Керхер не працює' 	, alt: 'Керхер не працює' 	, },
+		{ id: 'karcher_pracyue' 	, title: 'Керхер працює' 		, alt: 'Керхер працює' 		, },
+
+
+
+
+
 
 	]; 
 
