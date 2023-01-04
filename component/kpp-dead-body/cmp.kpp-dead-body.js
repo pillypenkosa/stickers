@@ -49,7 +49,7 @@ class ComponentKppDeadBody {
 
 		let imgHtml = '';
 		this.img.forEach( k => {
-			imgHtml += `<div class="each">
+			imgHtml += `<div class="each" onclick="ComponentKppDeadBody.clc( '${ k.id }' )">
 				<img src="img/stickers/kpp-dead-body/${ k.id }.jpg" title="${ k.title }" alt="${ k.alt }">
 
 
@@ -91,10 +91,12 @@ class ComponentKppDeadBody {
 
 
 
-	static clc( data ) {
+	static clc( id ) {
 
 		//console.log( data );
-		//alert( data );
+		//alert( id );
+
+		window.open( 'img/stickers/kpp-dead-body/' + id + '.jpg' );
 
 	}
 
