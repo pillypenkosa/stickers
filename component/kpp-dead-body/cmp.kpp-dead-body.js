@@ -41,10 +41,7 @@ class ComponentKppDeadBody {
 		{ id: 'karcher_ne_pracyue' 	, title: 'Керхер не працює' 	, alt: 'Керхер не працює' 	, },
 		{ id: 'karcher_pracyue' 	, title: 'Керхер працює' 		, alt: 'Керхер працює' 		, },
 
-
-
-
-
+		{ id: 'komandyry' 			, title: 'Людей на КПП' 		, alt: 'Людей на КПП' 		, },
 
 	]; 
 
