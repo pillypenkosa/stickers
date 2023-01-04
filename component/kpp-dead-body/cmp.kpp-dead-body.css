@@ -1,0 +1,32 @@
+cmp-kpp-dead-body {
+	all: unset;
+	display: block;
+
+	font-family: Courier;
+	color: lime;
+}
+/*
+	cmp-kpp-dead-body .clc {
+		cursor: pointer;
+	}
+		cmp-kpp-dead-body .clc:hover {
+			color: yellow;
+		}
+
+*/
+
+
+cmp-kpp-dead-body .each {
+	height: 200px;
+	width: 380px;
+	margin: 2px;
+	display: inline-block;
+}
+	cmp-kpp-dead-body .each img {
+		height: 100%;
+		width: 100%;
+		border-radius: 10px;
+	}
+
+
+
